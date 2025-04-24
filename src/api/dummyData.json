@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Roodkapje",
+        "author": "Fleur Van De Ville",
+        "image": "../../public/dummyData-Sprookjes/roodkapje.png"
+    },
+    {
+        "name": "Hans en Grietje",
+        "author": "Arno Baeck",
+        "image": "../../public/dummyData-Sprookjes/hans-en-grietje.png"
+    },
+    {
+        "name": "De wolf en de zeven geitjes",
+        "author": "Sam Hoeterickx",
+        "image": "../../public/dummyData-Sprookjes/de-wolf-en-zeven-geitjes.png"
+    },
+    {
+        "name": "Sneeuwwitje",
+        "author": "Matteo Giambarresi",
+        "image": "../../public/dummyData-Sprookjes/sneeuwwitje.png"
+    },
+    {
+        "name": "Roodkapje",
+        "author": "Fleur Van De Ville",
+        "image": "../../public/dummyData-Sprookjes/roodkapje.png"
+    },
+    {
+        "name": "Hans en Grietje",
+        "author": "Arno Baeck",
+        "image": "../../public/dummyData-Sprookjes/hans-en-grietje.png"
+    },
+    {
+        "name": "De wolf en de zeven geitjes",
+        "author": "Sam Hoeterickx",
+        "image": "../../public/dummyData-Sprookjes/de-wolf-en-zeven-geitjes.png"
+    },
+    {
+        "name": "Sneeuwwitje",
+        "author": "Matteo Giambarresi",
+        "image": "../../public/dummyData-Sprookjes/sneeuwwitje.png"
+    },
+    {
+        "name": "Roodkapje",
+        "author": "Fleur Van De Ville",
+        "image": "../../public/dummyData-Sprookjes/roodkapje.png"
+    },
+    {
+        "name": "Hans en Grietje",
+        "author": "Arno Baeck",
+        "image": "../../public/dummyData-Sprookjes/hans-en-grietje.png"
+    },
+    {
+        "name": "De wolf en de zeven geitjes",
+        "author": "Sam Hoeterickx",
+        "image": "../../public/dummyData-Sprookjes/de-wolf-en-zeven-geitjes.png"
+    },
+    {
+        "name": "Sneeuwwitje",
+        "author": "Matteo Giambarresi",
+        "image": "../../public/dummyData-Sprookjes/sneeuwwitje.png"
+    }
+]
