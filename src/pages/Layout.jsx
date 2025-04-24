@@ -1,13 +1,15 @@
 import { Outlet } from "react-router-dom";
-
 import Navigation from "../components/Navigation";
+import { useState } from "react";
 
 function Layout() {
+    const [searchTerm, setSearchTerm] = useState("");
+    
     return (
         <>
-            <Navigation />
+            <Navigation searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
 
-            <Outlet />
+            <Outlet context={{searchTerm}}/>
         </>
     )
 }
