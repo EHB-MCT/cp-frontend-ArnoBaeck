@@ -14,6 +14,7 @@ function Projects() {
             {filteredFairyTales.map((FairyTale) => (
                 <FairyTaleTile
                     key={FairyTale.id}
+                    id={FairyTale.id}
                     name={FairyTale.name}
                     author={FairyTale.author}
                     image={FairyTale.image}
