@@ -2,61 +2,85 @@
     {
         "name": "Roodkapje",
         "author": "Fleur Van De Ville",
-        "image": "/dummyData-Sprookjes/roodkapje.png"
+        "image": "/dummyData-Sprookjes/roodkapje.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "Hans en Grietje",
         "author": "Arno Baeck",
-        "image": "/dummyData-Sprookjes/hans-en-grietje.png"
+        "image": "/dummyData-Sprookjes/hans-en-grietje.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "De wolf en de zeven geitjes",
         "author": "Sam Hoeterickx",
-        "image": "/dummyData-Sprookjes/wolf-en-zeven-geitjes.png"
+        "image": "/dummyData-Sprookjes/wolf-en-zeven-geitjes.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "Sneeuwwitje",
         "author": "Matteo Giambarresi",
-        "image": "/dummyData-Sprookjes/sneeuwwitje.png"
+        "image": "/dummyData-Sprookjes/sneeuwwitje.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "Roodkapje",
         "author": "Fleur Van De Ville",
-        "image": "/dummyData-Sprookjes/roodkapje.png"
+        "image": "/dummyData-Sprookjes/roodkapje.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "Hans en Grietje",
         "author": "Arno Baeck",
-        "image": "/dummyData-Sprookjes/hans-en-grietje.png"
+        "image": "/dummyData-Sprookjes/hans-en-grietje.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "De wolf en de zeven geitjes",
         "author": "Sam Hoeterickx",
-        "image": "/dummyData-Sprookjes/wolf-en-zeven-geitjes.png"
+        "image": "/dummyData-Sprookjes/wolf-en-zeven-geitjes.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "Sneeuwwitje",
         "author": "Matteo Giambarresi",
-        "image": "/dummyData-Sprookjes/sneeuwwitje.png"
+        "image": "/dummyData-Sprookjes/sneeuwwitje.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "Roodkapje",
         "author": "Fleur Van De Ville",
-        "image": "/dummyData-Sprookjes/roodkapje.png"
+        "image": "/dummyData-Sprookjes/roodkapje.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "Hans en Grietje",
         "author": "Arno Baeck",
-        "image": "/dummyData-Sprookjes/hans-en-grietje.png"
+        "image": "/dummyData-Sprookjes/hans-en-grietje.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "De wolf en de zeven geitjes",
         "author": "Sam Hoeterickx",
-        "image": "/dummyData-Sprookjes/wolf-en-zeven-geitjes.png"
+        "image": "/dummyData-Sprookjes/wolf-en-zeven-geitjes.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     },
     {
         "name": "Sneeuwwitje",
         "author": "Matteo Giambarresi",
-        "image": "/dummyData-Sprookjes/sneeuwwitje.png"
+        "image": "/dummyData-Sprookjes/sneeuwwitje.png",
+        "banner": "/dummyData-Sprookjes/banner.png",
+        "video": "/dummyData-Sprookjes/video-preview.png"
     }
 ]
