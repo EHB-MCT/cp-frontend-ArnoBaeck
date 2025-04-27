@@ -22,3 +22,11 @@ function App() {
 }
 
 export default App
+
+//TODO:
+// 1. Render only the first 4 projects on the home page.
+// 2. Add a button to FairyTaleTile to navigate to the detail page.
+// 3. Render projects on the projects page.
+// 4. Add a all projects button to the home page.
+// 5. Add a search button in the navigation bar.
+// 6. Styling.
