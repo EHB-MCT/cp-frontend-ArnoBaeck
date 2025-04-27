@@ -20,9 +20,6 @@ function Navigation({ searchTerm, setSearchTerm }) {
                         <li>
                             <Link to="/projects">Projects</Link>
                         </li>
-                        <li>
-                            <Link to="/making-of">Making-of</Link>
-                        </li>
                     </ul>
                 </div>
                 <div className="searchBar">
