@@ -14,10 +14,21 @@ function Home() {
 
     const navigate = useNavigate();
 
+    // The spread operator (...) is used to create a copy of the filteredFairyTales array.
+    const randomElements = [];
+    const mappedData = [...filteredFairyTales];
+    const numberOfItems = 3;
+
+    for (let i = 0; i < numberOfItems && mappedData.length > 0; i++) {
+        const randomIndex = Math.floor(Math.random() * mappedData.length);
+        randomElements.push(mappedData[randomIndex]);
+        mappedData.splice(randomIndex, 1);
+    }
+
     return (
         <>
             <div className="FairyTales">
-                {filteredFairyTales.map((FairyTale) => (
+                {randomElements.map((FairyTale) => (
                     <FairyTaleTile
                         key={FairyTale.id}
                         id={FairyTale.id}
