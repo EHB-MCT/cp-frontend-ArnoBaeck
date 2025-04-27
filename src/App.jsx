@@ -14,6 +14,8 @@ function App() {
                     <Route index element={<Home />} />
                     <Route path="projects" element={<Projects />} />
                     <Route path="making-of" element={<DetailPage />} />
+
+                    {/* // Shows the 404 error page when the URL does not match any existing routes. */}
                     <Route path="*" element={<h1>404 Not Found</h1>} />
                 </Route>
             </Routes>
