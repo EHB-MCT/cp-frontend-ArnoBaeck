@@ -1,86 +1,122 @@
 [
     {
+        "id": 1,
         "name": "Roodkapje",
         "author": "Fleur Van De Ville",
         "image": "/dummyData-Sprookjes/roodkapje.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/roodkapje"
     },
     {
+        "id": 2,
         "name": "Hans en Grietje",
         "author": "Arno Baeck",
         "image": "/dummyData-Sprookjes/hans-en-grietje.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/hans-en-grietje"
     },
     {
+        "id": 3,
         "name": "De wolf en de zeven geitjes",
         "author": "Sam Hoeterickx",
         "image": "/dummyData-Sprookjes/wolf-en-zeven-geitjes.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/de-wolf-en-de-zeven-geitjes"
     },
     {
+        "id": 4,
         "name": "Sneeuwwitje",
         "author": "Matteo Giambarresi",
         "image": "/dummyData-Sprookjes/sneeuwwitje.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/sneeuwwitje"
     },
     {
+        "id": 5,
         "name": "Roodkapje",
         "author": "Fleur Van De Ville",
         "image": "/dummyData-Sprookjes/roodkapje.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/roodkapje"
     },
     {
+        "id": 6,
         "name": "Hans en Grietje",
         "author": "Arno Baeck",
         "image": "/dummyData-Sprookjes/hans-en-grietje.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/hans-en-grietje"
     },
     {
+        "id": 7,
         "name": "De wolf en de zeven geitjes",
         "author": "Sam Hoeterickx",
         "image": "/dummyData-Sprookjes/wolf-en-zeven-geitjes.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/de-wolf-en-de-zeven-geitjes"
     },
     {
+        "id": 8,
         "name": "Sneeuwwitje",
         "author": "Matteo Giambarresi",
         "image": "/dummyData-Sprookjes/sneeuwwitje.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/sneeuwwitje"
     },
     {
+        "id": 9,
         "name": "Roodkapje",
         "author": "Fleur Van De Ville",
         "image": "/dummyData-Sprookjes/roodkapje.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/roodkapje"
     },
     {
+        "id": 10,
         "name": "Hans en Grietje",
         "author": "Arno Baeck",
         "image": "/dummyData-Sprookjes/hans-en-grietje.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/hans-en-grietje"
     },
     {
+        "id": 11,
         "name": "De wolf en de zeven geitjes",
         "author": "Sam Hoeterickx",
         "image": "/dummyData-Sprookjes/wolf-en-zeven-geitjes.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/de-wolf-en-de-zeven-geitjes"
     },
     {
+        "id": 12,
         "name": "Sneeuwwitje",
         "author": "Matteo Giambarresi",
         "image": "/dummyData-Sprookjes/sneeuwwitje.png",
         "banner": "/dummyData-Sprookjes/banner.png",
-        "video": "/dummyData-Sprookjes/video-preview.png"
+        "video": "/dummyData-Sprookjes/video-preview.png",
+        "description": "Scroll through the enchanted forest where Snow White’s story unfolds in layers of depth and wonder. Watch the poison apple float gently towards you, while woodland creatures slide in from the sides. As you move through the page, the Evil Queen’s mirror whispers secrets, and dwarves pop up from behind trees with helpful tips about the world of front-end magic. With parallax scrolls and animated charm, this tale isn’t just told — it’s experienced.",
+        "link": "https://yourusername.github.io/sneeuwwitje"
     }
 ]
