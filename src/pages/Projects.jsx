@@ -10,16 +10,19 @@ function Projects() {
     );
 
     return (
-        <div className="FairyTales">
-            {filteredFairyTales.map((FairyTale) => (
-                <FairyTaleTile
-                    key={FairyTale.id}
-                    id={FairyTale.id}
-                    name={FairyTale.name}
-                    author={FairyTale.author}
-                    image={FairyTale.image}
-                />
-            ))}
+        <div className="wrapper">
+            <h1>All projects</h1>
+            <div className="FairyTales">
+                {filteredFairyTales.map((FairyTale) => (
+                    <FairyTaleTile
+                        key={FairyTale.id}
+                        id={FairyTale.id}
+                        name={FairyTale.name}
+                        author={FairyTale.author}
+                        image={FairyTale.image}
+                    />
+                ))}
+            </div>
         </div>
     )
 }
