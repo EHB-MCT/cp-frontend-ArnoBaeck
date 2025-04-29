@@ -13,7 +13,7 @@ function SearchBar({ searchTerm, setSearchTerm }) {
 		}
 	};
 
-	return <input type="text" placeholder="Search for a Fairytale" value={searchTerm} onChange={handleChange} />;
+	return <input className="searchBar" type="text" placeholder="Search for a Fairytale" value={searchTerm} onChange={handleChange} />;
 }
 
 export default SearchBar;
