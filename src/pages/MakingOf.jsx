@@ -12,24 +12,28 @@ function DetailPage() {
 	}
 
 	return (
-		<div className="MakingOf">
-            <div className="FairyTaleDetails">
-                <h1>Making-of — {fairyTale.name}</h1>
-                <h2>By {fairyTale.author}</h2>
-            </div>
-			<img src={fairyTale.banner} alt={`${fairyTale.name} banner`} />
-			<div className="DescriptionDetails">
-                <div className="DetailContainer1">
-                    <h2>Explainer video</h2>
-                    <img src={fairyTale.video} alt={`${fairyTale.name} explainer video`} />
-                </div>
-                <div className="DetailContainer2">
-                    <h2>Description</h2>
-                    <p>{fairyTale.description}</p>
-                    <Button label="Visit website" onClick={() => console.log("Goto fairytale")} />
-                    {/* How will i redirect to the fairytale page? What is the most efficient way to do this? */}
-                </div>
-            </div>
+		<div className="wrapper">
+			<div className="MakingOf">
+				<div className="FairyTaleDetails">
+					<h1>Making-of — {fairyTale.name}</h1>
+					<h2>By {fairyTale.author}</h2>
+				</div>
+				<img src={fairyTale.banner} alt={`${fairyTale.name} banner`} />
+				<div className="DescriptionDetails">
+					<div className="DetailContainer1">
+						<h2>Explainer video</h2>
+						<img src={fairyTale.video} alt={`${fairyTale.name} explainer video`} />
+					</div>
+					<div className="DetailContainer2">
+						<h2>Description</h2>
+						<p>{fairyTale.description}</p>
+						<div className="visitWebsiteButton">
+							<Button label="Visit website" onClick={() => console.log("Goto fairytale")} />
+						</div>
+						{/* How will i redirect to the fairytale page? What is the most efficient way to do this? */}
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }
