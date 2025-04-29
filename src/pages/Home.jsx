@@ -17,7 +17,7 @@ function Home() {
     // The spread operator (...) is used to create a copy of the filteredFairyTales array.
     const randomElements = [];
     const mappedData = [...filteredFairyTales];
-    const numberOfItems = 3;
+    const numberOfItems = 4;
 
     for (let i = 0; i < numberOfItems && mappedData.length > 0; i++) {
         const randomIndex = Math.floor(Math.random() * mappedData.length);
@@ -26,7 +26,8 @@ function Home() {
     }
 
     return (
-        <>
+        <div className="wrapper">
+            <h1>In the spotlight</h1>
             <div className="FairyTales">
                 {randomElements.map((FairyTale) => (
                     <FairyTaleTile
@@ -38,8 +39,10 @@ function Home() {
                     />
                 ))}
             </div>
-            <Button label="All projects" onClick={() => navigate("/projects")} />
-        </>
+            <div className="allProjectsBtn">
+                <Button label="All projects" onClick={() => navigate("/projects")} />
+            </div>
+        </div>
     )
 }
 
