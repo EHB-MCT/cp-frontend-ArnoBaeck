@@ -8,10 +8,12 @@ function Layout() {
 
     return (
         <>
-            <Navigation searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
+            <div className="wrapper">
+                <Navigation searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
 
-            {/* Outlet context sends data to child routes, which can be accessed using the useOutletContext hook. */}
-            <Outlet context={{searchTerm}}/>
+                {/* Outlet context sends data to child routes, which can be accessed using the useOutletContext hook. */}
+                <Outlet context={{searchTerm}}/>
+            </div>
             <Footer />
         </>
     )
