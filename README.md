@@ -13,4 +13,5 @@ Live link: [website.be](website.be) (optional)
     - Password: test
 
 ## Sources 🗃️
-COPILOT
+[COPILOT](https://github.com/features/copilot)
+[ChatGPT](https://chatgpt.com/share/682a1119-b828-800e-9533-ca6139d7db06) Helped me to better understand the code logic i needed | used in src > components > SearchBar.jsx
