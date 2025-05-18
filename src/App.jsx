@@ -12,7 +12,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
-                    <Route path="projects" element={<Projects />} />
+                    <Route path ="projects" element={<Projects />} />
                     <Route path ="making-of/:id" element={<DetailPage />} />
 
                     {/* // Shows the 404 error page when the URL does not match any existing routes. */}
