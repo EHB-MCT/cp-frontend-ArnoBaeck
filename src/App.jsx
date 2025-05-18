@@ -2,7 +2,7 @@ import './App.css'
 
 import { BrowserRouter, Routes, Route} from 'react-router'
 import Home from './pages/Home'
-import DetailPage from './pages/MakingOf'
+import MakingOf from './pages/MakingOf'
 import Projects from './pages/Projects'
 import Layout from './pages/Layout'
 
@@ -13,7 +13,7 @@ function App() {
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
                     <Route path ="projects" element={<Projects />} />
-                    <Route path ="making-of/:id" element={<DetailPage />} />
+                    <Route path ="making-of/:id" element={<MakingOf />} />
 
                     {/* // Shows the 404 error page when the URL does not match any existing routes. */}
                     <Route path="*" element={<h1>404 Not Found</h1>} />

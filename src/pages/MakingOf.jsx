@@ -3,7 +3,7 @@ import DATA from "../api/dummyData.json";
 import Button from "../components/Button";
 import ExplainerVideo from "../components/ExplainerVideo";
 
-function DetailPage() {
+function MakingOf() {
 	// Retrieves the 'id' parameter from the URL using the useParams hook.
 	const { id } = useParams();
 	const fairyTale = DATA.find((item) => item.id === parseInt(id));
@@ -36,4 +36,4 @@ function DetailPage() {
 	);
 }
 
-export default DetailPage;
+export default MakingOf;
