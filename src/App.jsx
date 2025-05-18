@@ -34,4 +34,5 @@ export default App
 // 6. Add a delay on the search bar.
 // 7. Add a loading screen when data is being fetched.
 // 8. When there is no video in the data, hide the video section.
-//DONE 8. Styling.
+// 9. When you click on the visit website button, load in another layout. When they click on the back arrow, they should be send back and not be redirected. (that way they can go back to the portal page they were on.)
+//DONE 10. Styling.
