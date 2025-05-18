@@ -31,7 +31,7 @@ export default App
 //DONE => // 3. Render projects on the projects page.
 //DONE => // 4. Add a all projects button to the home page.
 //Not doing that anymore, because you automatically search when filtering your data // 5. Add a search button in the navigation bar.
-// 6. Add a delay on the search bar.
+//DONE => // 6. Add a delay on the search bar.
 // 7. Add a loading screen when data is being fetched.
 // 8. When there is no video in the data, hide the video section.
 // 9. When you click on the visit website button, load in another layout. When they click on the back arrow, they should be send back and not be redirected. (that way they can go back to the portal page they were on.)
