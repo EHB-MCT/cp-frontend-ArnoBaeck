@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import DATA from "../api/dummyData.json";
 import Button from "../components/Button";
+import ExplainerVideo from "../components/ExplainerVideo";
 
 function DetailPage() {
 	// Retrieves the 'id' parameter from the URL using the useParams hook.
@@ -14,10 +15,7 @@ function DetailPage() {
 	return (
 		<div className="wrapper">
 			<div className="MakingOf">
-				<div className="FairyTaleDetails">
-					<h1>Making-of — {fairyTale.name}</h1>
-					<h2>By {fairyTale.author}</h2>
-				</div>
+				<ExplainerVideo name={fairyTale.name} author={fairyTale.author} />
 				<img src={fairyTale.banner} alt={`${fairyTale.name} banner`} />
 				<div className="DescriptionDetails">
 					<div className="DetailContainer1">
