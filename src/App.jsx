@@ -33,4 +33,5 @@ export default App
 //Not doing that anymore, because you automatically search when filtering your data // 5. Add a search button in the navigation bar.
 // 6. Add a delay on the search bar.
 // 7. Add a loading screen when data is being fetched.
-// 8. Styling.
+// 8. When there is no video in the data, hide the video section.
+//DONE 8. Styling.
