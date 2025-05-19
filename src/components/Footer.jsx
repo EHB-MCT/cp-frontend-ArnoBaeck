@@ -7,7 +7,7 @@ function Footer() {
 				<div className="footerContainer">
 					<div className="logo">
 						<Link to="/">
-							<img src="./../public/logo.svg" alt="Logo" />
+							<img src="./logo.svg" alt="Logo" />
 						</Link>
 					</div>
 					<div className="about">

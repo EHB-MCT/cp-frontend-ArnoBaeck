@@ -18,3 +18,4 @@ Live link: [website.be](website.be) (optional)
 
 [COPILOT](https://github.com/features/copilot)</br>
 [ChatGPT](https://chatgpt.com/share/682a1119-b828-800e-9533-ca6139d7db06) Helped me to better understand the code logic i needed | used in src > components > SearchBar.jsx
+[Geeksforgeeks](https://www.geeksforgeeks.org/hashrouter-in-react-router/) Helped me understand how i could use hashrouter

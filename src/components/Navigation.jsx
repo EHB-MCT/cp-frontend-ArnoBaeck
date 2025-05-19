@@ -9,8 +9,8 @@ function Navigation({ searchTerm, setSearchTerm }) {
 			<div className="navigationFlexContainer">
 				<div className="logoContainer">
 					<li>
-						<Link to="/">
-							<img src="./../public/logo.svg" alt="Logo" />
+						<Link to="/cp-frontend-ArnoBaeck/">
+							<img src="./logo.svg" alt="Logo" />
 						</Link>
 					</li>
 				</div>
