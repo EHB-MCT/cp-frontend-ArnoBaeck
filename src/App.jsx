@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import MakingOf from "./pages/MakingOf";
 import Projects from "./pages/Projects";
 import Layout from "./pages/Layout";
+import FairytaleLayout from "./pages/Fairytale/FairytaleLayout";
+import Fairytale from "./pages/FairyTale/FairyTale";
 
 function App() {
 	return (
@@ -20,6 +22,10 @@ function App() {
 					{/* 404-pagina */}
 					<Route path="*" element={<h1>404 Not Found</h1>} />
 				</Route>
+                
+                <Route path="/fairytale" element={<FairytaleLayout />}>
+                    <Route index element={<Fairytale />} />
+                </Route>
 			</Routes>
 		</HashRouter>
 	);
