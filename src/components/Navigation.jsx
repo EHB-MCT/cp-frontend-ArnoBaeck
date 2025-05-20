@@ -27,6 +27,11 @@ function Navigation({ searchTerm, setSearchTerm }) {
 									Projects
 								</Link>
 							</li>
+							<li>
+								<Link to="/fairytale" className={location.pathname === "/fairytale" ? "active" : ""}>
+									Fairytale
+								</Link>
+							</li>
 						</ul>
 					</div>
 					<div className="searchBar">
