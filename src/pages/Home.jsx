@@ -1,8 +1,7 @@
 import DATA from "../api/dummyData.json"
 import FairyTaleTile from "../components/FairyTaleTile";
-import { useOutletContext } from "react-router-dom";
+import { useOutletContext, useNavigate } from "react-router-dom";
 import Button from "../components/Button";
-import { useNavigate } from "react-router-dom";
 
 function Home() {
     // The useOutletContext hook is used to access the context data passed from the parent route (Layout) to the child route (Home).
