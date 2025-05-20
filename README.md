@@ -16,7 +16,8 @@ Live link: [website.be](website.be) (optional)
 
 ## Sources 🗃️
 
-[COPILOT](https://github.com/features/copilot)</br>
+[COPILOT](https://github.com/features/copilot)
 [ChatGPT](https://chatgpt.com/share/682a1119-b828-800e-9533-ca6139d7db06) Helped me to better understand the code logic i needed | used in src > components > SearchBar.jsx
 [Fellow student Wout Van Impe](https://chatgpt.com/share/682b3eeb-8054-8003-ab2b-8ca273860191) He shared a fix on teams with the class to fix hosting problems.
 [Geeksforgeeks](https://www.geeksforgeeks.org/hashrouter-in-react-router/) Helped me understand how i could use hashrouter.
+[ChatGPT](https://chatgpt.com/share/682c555a-2c58-800e-a9fe-0950d7e1641a) Helped me to find the problem when my fairytale was not loading in.
