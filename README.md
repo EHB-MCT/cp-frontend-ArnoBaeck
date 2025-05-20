@@ -19,4 +19,4 @@ Live link: [website.be](website.be) (optional)
 [COPILOT](https://github.com/features/copilot)</br>
 [ChatGPT](https://chatgpt.com/share/682a1119-b828-800e-9533-ca6139d7db06) Helped me to better understand the code logic i needed | used in src > components > SearchBar.jsx
 [Fellow student Wout Van Impe](https://chatgpt.com/share/682b3eeb-8054-8003-ab2b-8ca273860191) He shared a fix on teams with the class to fix hosting problems.
-[Geeksforgeeks](https://www.geeksforgeeks.org/hashrouter-in-react-router/) Helped me understand how i could use hashrouter
+[Geeksforgeeks](https://www.geeksforgeeks.org/hashrouter-in-react-router/) Helped me understand how i could use hashrouter.
