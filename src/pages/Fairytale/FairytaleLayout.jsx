@@ -1,14 +1,13 @@
-import FairytaleNavigation from "../../components/Fairytale/FairytaleNavigation"
-import { Outlet } from "react-router"
+import FairytaleNavigation from "../../components/Fairytale/FairytaleNavigation";
+import { Outlet } from "react-router";
 
 function FairytaleLayout() {
-
-    return (
-        <div className="wrapper">
-            <FairytaleNavigation />
-            <Outlet />
-        </div>
-    )
+	return (
+		<>
+			<FairytaleNavigation />
+			<Outlet />
+		</>
+	);
 }
 
-export default FairytaleLayout
+export default FairytaleLayout;

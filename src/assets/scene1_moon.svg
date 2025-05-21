@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248.63 248.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #828282;
+      }
+
+      .cls-2 {
+        fill: #aaa;
+      }
+    </style>
+  </defs>
+  <g id="Moon">
+    <g>
+      <circle class="cls-2" cx="124.31" cy="124.31" r="124.31"/>
+      <ellipse class="cls-1" cx="121.67" cy="164.51" rx="30" ry="7.5"/>
+      <circle class="cls-1" cx="169.98" cy="104.51" r="18.3"/>
+      <ellipse class="cls-1" cx="40.37" cy="77.51" rx="16.5" ry="8.7"/>
+      <ellipse class="cls-1" cx="37.96" cy="140.66" rx="8.7" ry="16.35"/>
+      <circle class="cls-1" cx="203.58" cy="184.92" r="12.9"/>
+      <ellipse class="cls-1" cx="128.87" cy="42.7" rx="7.2" ry="5.1"/>
+    </g>
+  </g>
+</svg>

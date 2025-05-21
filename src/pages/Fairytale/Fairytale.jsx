@@ -1,9 +1,10 @@
+import Scene1 from "../../components/Fairytale/Scenes/Scene1";
+
 function Fairytale() {
 	return (
-		<>
-			<h1>HALLOOOOOOOOO</h1>
-            <h1>Hey</h1>
-		</>
+		<div className="fairytale-scroll">
+			<Scene1 />
+		</div>
 	);
 }
 

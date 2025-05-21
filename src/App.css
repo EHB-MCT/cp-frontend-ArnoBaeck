@@ -232,6 +232,10 @@ footer p {
 
 /* FAIRY TALE STYLING */
 
+.fairytale-scroll {
+	scroll-behavior: smooth;
+}
+
 .fairytaleNavigation * {
 	font-family: "bungee", sans-serif;
 }
@@ -239,10 +243,148 @@ footer p {
 .fairytaleNavigation {
 	display: flex;
 	flex-direction: row;
-    position: absolute;
+	position: absolute;
+	z-index: 100000000000000000;
 }
 
 .fairytaleNavigation button {
 	background-color: transparent;
 	border: none;
+	color: white;
+	padding-left: 40px;
+}
+
+.scene {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.scene img {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+
+.layer {
+	object-fit: cover;
+	display: block;
+}
+
+.mountain_front {
+	top: 50vh;
+	scale: 1.2;
+	z-index: 2;
+	z-index: ;
+}
+
+.mountain_back {
+	top: 40vh;
+	scale: 1.2;
+}
+
+.stars {
+	bottom: 25vh;
+}
+
+.bread {
+	scale: 0.02;
+	z-index: 3;
+}
+
+.bread1 {
+	top: 30vh;
+	right: 5vw;
+}
+
+.bread2 {
+	top: 40vh;
+	right: 2vw;
+}
+
+.bread3 {
+	top: 45vh;
+	right: 5vw;
+}
+
+.hansel_gretel {
+	scale: 0.15;
+	top: 25vh;
+	right: 1vw;
+	z-index: 101;
+}
+
+.tree {
+	scale: 0.3;
+}
+
+.tree1 {
+	top: 20vh;
+	left: 25vw;
+	z-index: 2;
+	scale: 0.35;
+}
+
+.tree2 {
+	top: 30vh;
+	left: 20vw;
+	z-index: 3;
+	scale: 0.4;
+}
+
+.tree3 {
+	top: 30vh;
+	right: 25vw;
+	scale: 0.4;
+	z-index: 4;
+}
+
+.tree4 {
+	top: 20vh;
+	right: 40vw;
+	scale: 0.35;
+	z-index: 2;
+}
+
+.tree5 {
+	left: 22vw;
+	scale: 0.2;
+}
+
+.tree6 {
+	left: 0vw;
+	scale: 0.2;
+}
+
+.tree7 {
+	right: 15vw;
+	scale: 0.2;
+}
+
+.moon {
+	scale: 0.3;
+	bottom: 30vh;
+	right: 35vw;
+}
+
+.house,
+.bush {
+	scale: 0.25;
+	top: 5vh;
+}
+
+.bush {
+	top: 9vh;
+}
+
+.drag-zone {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: 100;
+}
+
+.drag-zone * {
+	pointer-events: auto;
 }
