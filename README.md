@@ -21,3 +21,9 @@ Live link: [website.be](website.be) (optional)
 [Fellow student Wout Van Impe](https://chatgpt.com/share/682b3eeb-8054-8003-ab2b-8ca273860191) He shared a fix on teams with the class to fix hosting problems.
 [Geeksforgeeks](https://www.geeksforgeeks.org/hashrouter-in-react-router/) Helped me understand how i could use hashrouter.
 [ChatGPT](https://chatgpt.com/share/682c555a-2c58-800e-a9fe-0950d7e1641a) Helped me to find the problem when my fairytale was not loading in.
+[ChatGPT](https://chatgpt.com/share/682d9d3c-104c-800e-9213-4b9cdd25dd22) Helped me with letting content follow my mouse movement | used in src > components > Fairytale > Scenes
+[ChatGPT](https://chatgpt.com/share/682dec48-a6b0-800e-8ab6-06f3de22165d) Helped me troubleshooting when i had trouble with parallax effect of mountains | used in src > Fairytale > Scenes > Scene1.jsx && used in src > Fairytale > Mountains.jsx
+
+# Sounds 🔉
+[Bush sound](https://www.youtube.com/watch?v=6U1r-t_caoU&ab_channel=FieldRecordings%28RelaxingSounds%29)
+[Start scene magical sound](https://www.youtube.com/watch?v=h5fFaG1haNM&ab_channel=SMTseries)
