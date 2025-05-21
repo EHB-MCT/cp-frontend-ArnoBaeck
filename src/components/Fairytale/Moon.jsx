@@ -1,8 +1,7 @@
-import { useScroll, useTransform, motion } from "framer-motion";
+import { useTransform, motion } from "framer-motion";
 import moon from "../../assets/scene1_moon.svg";
 
-function Moon({ scrollRef }) {
-	const { scrollY } = useScroll({ target: scrollRef, layoutEffect: false });
+function Moon({ scrollY }) {
 
 	const moonX = useTransform(scrollY, [200, 700], [0, 9000]);
 	const moonY = useTransform(scrollY, [200, 450, 700], [0, -600, 0]);
