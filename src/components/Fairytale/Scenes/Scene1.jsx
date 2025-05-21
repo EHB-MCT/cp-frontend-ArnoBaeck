@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 
 import bg from "../../../assets/scene1_background.svg";
 import Bush from "../Bush.jsx";
