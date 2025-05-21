@@ -1,4 +1,4 @@
-import { useScroll } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 import bg from "../../../assets/scene1_background.svg";
 import hansel_gretel from "../../../assets/scene1_hansel_and_gretel.svg";
@@ -12,6 +12,8 @@ import Bread from "../Bread.jsx";
 
 function Scene1({ scrollRef }) {
 	const { scrollY } = useScroll({ target: scrollRef, layoutEffect: false });
+	const houseY = useTransform(scrollY, [900, 1500], [0, -280]);
+	const hanselAndGretleY = useTransform(scrollY, [900, 1500], [0, -280]);
 
 	return (
 		<div className="scene" ref={scrollRef}>
@@ -19,11 +21,11 @@ function Scene1({ scrollRef }) {
 			<Stars />
 			<Mountains scrollY={scrollY} />
 			<Moon />
-			<Bread scrollY={scrollY}/>
-			<img src={hansel_gretel} alt="Hansel and Gretel" className="hansel_gretel" />
-			<img src={house} alt="house" className="house" />
+			<Bread scrollY={scrollY} />
+			<motion.img src={hansel_gretel} alt="Hansel and Gretel" className="hansel_gretel" style={{ y: hanselAndGretleY }} />
+			<motion.img src={house} alt="house" className="house" style={{ y: houseY }} />
 			<Cover />
-			<Bush />
+			<Bush scrollY={scrollY}/>
 		</div>
 	);
 }
