@@ -27,6 +27,10 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
+body::-webkit-scrollbar {
+	display: none;
+}
+
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
@@ -232,10 +236,6 @@ footer p {
 
 /* FAIRY TALE STYLING */
 
-.fairytale-scroll {
-	scroll-behavior: smooth;
-}
-
 .fairytaleNavigation * {
 	font-family: "bungee", sans-serif;
 }
@@ -255,10 +255,21 @@ footer p {
 }
 
 .scene {
-	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
+	pointer-events: none;
+}
+
+.scene * {
+	pointer-events: auto;
+}
+
+.scene::-webkit-scrollbar {
+	display: none;
 }
 
 .scene img {
@@ -276,7 +287,6 @@ footer p {
 	top: 50vh;
 	scale: 1.2;
 	z-index: 2;
-	z-index: ;
 }
 
 .mountain_back {
@@ -285,22 +295,7 @@ footer p {
 }
 
 .stars {
-	bottom: 25vh;
-}
-
-.bread {
-	scale: 0.02;
-	z-index: 3;
-}
-
-.bread1 {
-	top: 30vh;
-	right: 5vw;
-}
-
-.bread2 {
-	top: 40vh;
-	right: 2vw;
+	top: -25vh;
 }
 
 .bread3 {
@@ -317,6 +312,8 @@ footer p {
 
 .tree {
 	scale: 0.3;
+	opacity: 0;
+	transform: translateX(100px);
 }
 
 .tree1 {
@@ -355,6 +352,7 @@ footer p {
 .tree6 {
 	left: 0vw;
 	scale: 0.2;
+	z-index: 1;
 }
 
 .tree7 {
@@ -363,15 +361,22 @@ footer p {
 }
 
 .moon {
-	scale: 0.3;
-	bottom: 30vh;
+	position: fixed;
+	top: -30vh;
 	right: 35vw;
+	scale: 0.2;
+	z-index: 10;
+	pointer-events: none;
 }
 
 .house,
 .bush {
 	scale: 0.25;
 	top: 5vh;
+}
+
+.house {
+	z-index: 2;
 }
 
 .bush {
@@ -387,4 +392,39 @@ footer p {
 
 .drag-zone * {
 	pointer-events: auto;
+}
+
+.cover {
+	position: fixed;
+	inset: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	font-family: "Cormorant Garamond", serif;
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+
+	background: radial-gradient(circle at center, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0.85) 100%);
+}
+
+.text-cover h1 {
+	padding-top: 20vh;
+	font-size: 100pt;
+	color: white;
+}
+
+.text-cover p {
+	font-size: 20pt;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.scroll-wrapper {
+	height: 100vh;
+	overflow-y: scroll;
+	position: relative;
 }
