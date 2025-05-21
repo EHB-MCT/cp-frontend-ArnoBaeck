@@ -448,3 +448,61 @@ footer p {
 	90% { opacity: 1; }
 	100% { opacity: 0; }
 }
+
+/* SCENE2 */
+
+.house_scene2,
+.mountain_scene2 {
+	position: absolute;
+}
+
+.house_scene2 {
+	scale: 0.5;
+	right: 10vw;
+	z-index: 2;
+}
+
+.mountain_scene2 {
+	scale: 1.2;
+	top: 40vh;
+}
+
+.candy_scene2 {
+	scale: 0.5;
+	top: 35vh;
+	z-index: 2;
+}
+
+.hansel_gretel_scene2 {
+	left: 4vw;
+	top: 35vh;
+	z-index: 1;
+}
+
+.smoke_scene2 {
+	scale: 1.5;
+	top: 25vh;
+	z-index: 1000;
+}
+
+.tree_scene2 {
+	scale: 0.5;
+}
+
+.tree1_scene2 {
+	left: 25vw;
+	top: 20vh;
+	z-index: 2;
+}
+
+.tree2_scene2 {
+	left: 40vw;
+	top: 10vh;
+	z-index: 1;
+}
+
+.tree3_scene2 {
+	right: 30vw;
+	top: 20vh;
+	z-index: 3;
+}

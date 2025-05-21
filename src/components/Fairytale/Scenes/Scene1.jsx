@@ -11,7 +11,7 @@ import Bread from "../Bread.jsx";
 import House from "../House.jsx";
 import HanselAndGretel from "../HanselAndGretel.jsx";
 
-function Scene1({ scrollRef }) {
+function Scene1({ scrollRef, onTransitionEnd }) {
 	const { scrollY } = useScroll({ target: scrollRef, layoutEffect: false });
 
 	const [showFlash, setShowFlash] = useState(false);
@@ -22,6 +22,7 @@ function Scene1({ scrollRef }) {
 
 	setTimeout(() => {
 		setHideScene1(true);
+		onTransitionEnd();
 	}, 500);
 
 	setTimeout(() => {
