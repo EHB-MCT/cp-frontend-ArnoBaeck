@@ -1,12 +1,15 @@
 import { motion, useTransform } from "framer-motion";
 import bush from "../../assets/scene1_bush.svg";
 import bushDragSound from "../../assets/scene1_bushes.mp3";
+import thunderSound from "../../assets/thunder.mp3";
 import { useRef } from "react";
 
-function Bush({ scrollY }) {
+function Bush({ scrollY, onTriggerTransition }) {
 	const bushZoneRef = useRef(null);
 	const bushAudioRef = useRef(new Audio(bushDragSound));
 	const bushY = useTransform(scrollY, [900, 1500], [0, -280]);
+
+	const thunderAudioRef = useRef(new Audio(thunderSound));
 
 	return (
 		<div ref={bushZoneRef} className="drag-zone bush-zone">
@@ -20,6 +23,14 @@ function Bush({ scrollY }) {
 					const sound = bushAudioRef.current;
 					sound.currentTime = 0;
 					sound.play();
+				}}
+				onDragEnd={() => {
+					setTimeout(() => {
+						onTriggerTransition();
+						const sound = thunderAudioRef.current;
+						sound.currentTime = 0;
+						sound.play();
+					}, 1000);
 				}}
 			/>
 		</div>

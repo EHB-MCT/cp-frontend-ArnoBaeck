@@ -428,3 +428,23 @@ footer p {
 	overflow-y: scroll;
 	position: relative;
 }
+
+.flash-effect {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+	z-index: 9999;
+	animation: flash 1s ease-out;
+	pointer-events: none;
+}
+
+
+@keyframes flash {
+	0% { opacity: 0; }
+	10% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0; }
+}
