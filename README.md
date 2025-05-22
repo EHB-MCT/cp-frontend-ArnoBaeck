@@ -27,3 +27,4 @@ Live link: [website.be](website.be) (optional)
 # Sounds 🔉
 [Bush sound](https://www.youtube.com/watch?v=6U1r-t_caoU&ab_channel=FieldRecordings%28RelaxingSounds%29)
 [Start scene magical sound](https://www.youtube.com/watch?v=h5fFaG1haNM&ab_channel=SMTseries)
+[Sountrack scene2](https://www.youtube.com/watch?v=CDWtH8eHeEU&ab_channel=ArondightStudios)
