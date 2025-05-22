@@ -520,3 +520,19 @@ footer p {
 	top: 20vh;
 	right: 5vw;
 }
+
+/* TRANSITION SCENE2 => SCENE3 */
+
+.dark-transition {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	z-index: 9999;
+	pointer-events: none;
+}
+
+/* SCENE3 */
+

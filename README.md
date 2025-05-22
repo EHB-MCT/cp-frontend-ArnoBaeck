@@ -23,9 +23,16 @@ Live link: [website.be](website.be) (optional)
 [ChatGPT](https://chatgpt.com/share/682c555a-2c58-800e-a9fe-0950d7e1641a) Helped me to find the problem when my fairytale was not loading in.
 [ChatGPT](https://chatgpt.com/share/682d9d3c-104c-800e-9213-4b9cdd25dd22) Helped me with letting content follow my mouse movement | used in src > components > Fairytale > Scenes
 [ChatGPT](https://chatgpt.com/share/682dec48-a6b0-800e-8ab6-06f3de22165d) Helped me troubleshooting when i had trouble with parallax effect of mountains | used in src > Fairytale > Scenes > Scene1.jsx && used in src > Fairytale > Mountains.jsx
+[Youtube](https://youtube.be) Used so gather sound effects
+[YTMP3](https://ytmp3.la/LOF8/) Used to convert yt video's in to MP3 files
+[ChatGPT](https://chatgpt.com/share/682f4d63-4fb4-800e-afe3-1ed53e8ed1f2) Loop fix | used in src > components > Fairytale > Scene2_Door.jsx
 
 # Sounds 🔉
 [Bush sound](https://www.youtube.com/watch?v=6U1r-t_caoU&ab_channel=FieldRecordings%28RelaxingSounds%29)
 [Start scene magical sound](https://www.youtube.com/watch?v=h5fFaG1haNM&ab_channel=SMTseries)
 [Sountrack scene2](https://www.youtube.com/watch?v=CDWtH8eHeEU&ab_channel=ArondightStudios)
 [Door opening sound](https://www.youtube.com/watch?v=jwld89z9d90&ab_channel=soundeffects)
+[Grab sound](https://www.youtube.com/watch?v=WjxPOU09Wb4&ab_channel=SFXFella)
+[Buildup](https://www.youtube.com/watch?v=3b--bevX0zc&ab_channel=SoundEffects)
+[Door closing sound](https://www.youtube.com/watch?v=SgUdzDdeO78&ab_channel=DistortedRoom)
+[Cell door sound](https://www.youtube.com/watch?v=zwy-lqbm034&ab_channel=SoundEffects)
