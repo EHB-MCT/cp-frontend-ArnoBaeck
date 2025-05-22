@@ -506,3 +506,17 @@ footer p {
 	top: 20vh;
 	z-index: 3;
 }
+
+.door_scene2 {
+	scale: 0.15;
+	z-index: 5;
+	top: 14.3vh;
+	right: 10vw;
+}
+
+.witch_scene2 {
+	scale: 0.15;
+	z-index: 4;
+	top: 20vh;
+	right: 5vw;
+}

@@ -8,6 +8,7 @@ import tree2 from "../../../assets/scene2_tree2.svg";
 import tree3 from "../../../assets/scene2_tree3.svg";
 import Stars from "../Stars.jsx";
 import Scene2_Smoke from "../Scene2_Smoke.jsx";
+import Scene2_Door from "../Scene2_Door.jsx";
 
 function Scene2() {
 	return (
@@ -21,6 +22,7 @@ function Scene2() {
 			<img src={tree1} alt="tree1" className="tree_scene2 tree1_scene2" />
 			<img src={tree2} alt="tree2" className="tree_scene2 tree2_scene2" />
 			<img src={tree3} alt="tree3" className="tree_scene2 tree3_scene2" />
+			<Scene2_Door />
 			<Stars />
 		</div>
 	);
