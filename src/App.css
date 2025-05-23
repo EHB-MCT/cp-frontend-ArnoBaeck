@@ -558,7 +558,7 @@ footer p {
 	scale: 0.5;
 	left: 10vw;
 	top: 20vh;
-	z-index: 2;
+	z-index: 3;
 }
 
 .key_scene3 {
@@ -572,6 +572,8 @@ footer p {
 	scale: 0.2;
 	left: 6vw;
 	top: 33.5vh;
+	z-index: 1;
+	position: absolute;
 }
 
 .scene3 {
