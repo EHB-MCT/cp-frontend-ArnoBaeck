@@ -579,3 +579,10 @@ footer p {
 .scene3 {
 	background-color: #000000;
 }
+
+.coins_scene3 {
+	scale: 0.08;
+	top: 1vh;
+	right: 45vw;
+	z-index: 1000;
+}
