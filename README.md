@@ -26,7 +26,6 @@ Live link: [website.be](website.be) (optional)
 [Youtube](https://youtube.be) Used so gather sound effects
 [YTMP3](https://ytmp3.la/LOF8/) Used to convert yt video's in to MP3 files
 [ChatGPT](https://chatgpt.com/share/682f4d63-4fb4-800e-afe3-1ed53e8ed1f2) Loop fix | used in src > components > Fairytale > Scene2_Door.jsx
-[ChatGPT](https://chatgpt.com/share/68306085-ce90-800e-87fb-f9c0c9eb455d) Gathering intell on how to detect if key hovers over cell and opening cell door | used in > src > components > Fairytale > Scene3_Key.jsx
 
 # Sounds 🔉
 [Bush sound](https://www.youtube.com/watch?v=6U1r-t_caoU&ab_channel=FieldRecordings%28RelaxingSounds%29)
@@ -37,3 +36,5 @@ Live link: [website.be](website.be) (optional)
 [Buildup](https://www.youtube.com/watch?v=3b--bevX0zc&ab_channel=SoundEffects)
 [Door closing sound](https://www.youtube.com/watch?v=SgUdzDdeO78&ab_channel=DistortedRoom)
 [Cell door sound](https://www.youtube.com/watch?v=zwy-lqbm034&ab_channel=SoundEffects)
+[Key falling sound](https://www.youtube.com/watch?v=fBiauEGtb_U&ab_channel=TheSoundPackTree)
+[Person falling sound](https://www.youtube.com/watch?v=o8sqSsV9-fA&ab_channel=BerlinAtmospheres)
