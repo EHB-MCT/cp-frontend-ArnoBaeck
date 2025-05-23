@@ -23,7 +23,7 @@ function Scene3_Hansel() {
 			alt="hansel"
 			className="hansel_scene3"
 			initial={{ x: 0, y: 0 }}
-			animate={moveHansle ? { x: 150, y: 900 } : { x: 0, y: 0 }}
+			animate={moveHansle ? { x: 150, y: 700 } : { x: 0, y: 0 }}
 			transition={{ duration: 1 }}
 		/>
 	);

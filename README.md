@@ -26,6 +26,7 @@ Live link: [website.be](website.be) (optional)
 [Youtube](https://youtube.be) Used so gather sound effects
 [YTMP3](https://ytmp3.la/LOF8/) Used to convert yt video's in to MP3 files
 [ChatGPT](https://chatgpt.com/share/682f4d63-4fb4-800e-afe3-1ed53e8ed1f2) Loop fix | used in src > components > Fairytale > Scene2_Door.jsx
+[ChatGPT](https://chatgpt.com/share/68308fcf-3b38-800e-811f-ebb0a760e3d8) Used for story telling and how to show text only once.
 
 # Sounds 🔉
 [Bush sound](https://www.youtube.com/watch?v=6U1r-t_caoU&ab_channel=FieldRecordings%28RelaxingSounds%29)

@@ -30,7 +30,7 @@ function Bush({ scrollY, onTriggerTransition }) {
 						const sound = thunderAudioRef.current;
 						sound.currentTime = 0;
 						sound.play();
-					}, 1000);
+					}, 2000);
 				}}
 			/>
 		</div>

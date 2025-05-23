@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 import bg from "../../../assets/scene1_background.svg";
 import house from "../../../assets/scene2_house.svg";
@@ -12,8 +12,53 @@ import Stars from "../Stars.jsx";
 import Scene2_Smoke from "../Scene2_Smoke.jsx";
 import Scene2_Door from "../Scene2_Door.jsx";
 
+import TextOverlay from "../TextOverlay.jsx";
+
 function Scene2({ onTransitionEnd }) {
 	const [hideScene2, setHideScene2] = useState(false);
+
+	const [showOverlay, setShowOverlay] = useState(false);
+	const [overlayText, setOverlayText] = useState("");
+	const shownOverlays = useRef(new Set());
+
+	useEffect(() => {
+		if ("scrollRestoration" in window.history) {
+			window.history.scrollRestoration = "manual";
+		}
+		window.scrollTo(0, 0);
+	}, []);
+
+	useEffect(() => {
+		const handleScroll = () => {
+			const scrollY = window.scrollY;
+			if (scrollY >= 0 && !shownOverlays.current.has("whats_next")) {
+				shownOverlays.current.add("whats_next");
+				setOverlayText("Hansel and Gretel have found a house made out of candy... But they do not know whats comming next... (click to remove the smoke.)");
+				setShowOverlay(true);
+			}
+
+			if (scrollY >= 600 && !shownOverlays.current.has("door_open")) {
+				shownOverlays.current.add("door_open");
+				setOverlayText("They are about to go to the house... But before they do that, the door swings open!");
+				setShowOverlay(true);
+			}
+
+			if (scrollY >= 1000 && !shownOverlays.current.has("witch_appears")) {
+				shownOverlays.current.add("witch_appears");
+				setOverlayText("A witch appears and invites them in... She seems friendly at first sight. But then...");
+				setShowOverlay(true);
+			}
+		};
+
+		if (showOverlay) {
+			document.body.style.overflow = "hidden";
+		} else {
+			document.body.style.overflow = "auto";
+		}
+
+		window.addEventListener("scroll", handleScroll);
+		return () => window.removeEventListener("scroll", handleScroll);
+	}, [showOverlay]);
 
 	return (
 		<div className="scene scene2" style={{ display: hideScene2 ? "none" : "block" }}>
@@ -28,6 +73,8 @@ function Scene2({ onTransitionEnd }) {
 			<img src={tree3} alt="tree3" className="tree_scene2 tree3_scene2" />
 			<Scene2_Door onTransitionEnd={onTransitionEnd} onHide={() => setHideScene2(true)} />
 			<Stars />
+
+			{showOverlay && <TextOverlay text={overlayText} onDismiss={() => setShowOverlay(false)} />}
 		</div>
 	);
 }

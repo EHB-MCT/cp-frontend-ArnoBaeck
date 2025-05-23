@@ -243,7 +243,9 @@ footer p {
 .fairytaleNavigation {
 	display: flex;
 	flex-direction: row;
-	position: absolute;
+	position: fixed;
+	top: 0;
+	left: 0;
 	z-index: 100000000000000000;
 }
 
@@ -538,7 +540,7 @@ footer p {
 
 .cell_door_scene3 {
 	scale: 0.45;
-	right: 28.7vw;
+	right: 29vw;
 	bottom: 2.6vh;
 }
 
@@ -585,4 +587,46 @@ footer p {
 	top: 1vh;
 	right: 45vw;
 	z-index: 1000;
+}
+
+/* SCENE4 */
+
+.hansel_and_gretel {
+	scale: 0.2;
+	top: 20vh;
+	z-index: 2;
+	right: 2vw;
+}
+
+/* TEXT OVERLEY STYLING */
+
+.text-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999;
+	cursor: pointer;
+}
+
+.text-content p{
+	text-align: center;
+	color: white;
+	max-width: 80vw;
+	padding: 2rem;
+}
+
+.main-text {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.click-hint {
+	font-size: 1rem;
+	opacity: 0.6;
 }
