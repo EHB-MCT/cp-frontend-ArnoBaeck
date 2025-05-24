@@ -57,6 +57,6 @@ export default App;
 //DONE 6. Add a loading screen when data is being fetched. => I will do this when i have an API to fetch data from.
 //DONE 7. When there is no video in the data, hide the video section.
 //DONE 8. When you click on the visit website button, load in another layout. When they click on the back arrow, they should be send back and not be redirected. (that way they can go back to the portal page they were on.)
-// 9. Project name
+//DONE 9. Project name
 //DONE 10. Fix link of logo in nav
 //DONE 11. Styling.
