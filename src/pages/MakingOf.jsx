@@ -27,18 +27,15 @@ function MakingOf() {
 	return (
 		<div className="wrapper">
 			<div className="MakingOf">
-				{/* Renders the heading with student name and fairytale */}
 				<ExplainerVideo name={fairyTale.fairytale} author={fairyTale.nameStudent} />
 
-				{/* Renders the banner image of the fairytale */}
 				<img src={fairyTale.imgBanner} alt={`${fairyTale.fairytale} banner`} />
 
 				<div className="DescriptionDetails">
-					<div className="DetailContainer1">
-						<h2>Explainer video</h2>
-
-						{/* If videoExplainer is a YouTube ID, embed the video */}
-						{fairyTale.videoExplainer ? (
+					{/* Only render the whole container if there is a video */}
+					{fairyTale.videoExplainer && (
+						<div className="DetailContainer1">
+							<h2>Explainer video</h2>
 							<iframe
 								width="100%"
 								height="315"
@@ -48,10 +45,8 @@ function MakingOf() {
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 								allowFullScreen
 							></iframe>
-						) : (
-							<p>No video available</p>
-						)}
-					</div>
+						</div>
+					)}
 
 					<div className="DetailContainer2">
 						<h2>Description</h2>
