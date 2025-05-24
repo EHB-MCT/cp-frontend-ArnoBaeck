@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import useFetchFairytales from "../hooks/useFetchFairyTales";
 import Button from "../components/Button";
 import ExplainerVideo from "../components/ExplainerVideo";
-import { p } from "framer-motion/client";
+import placeholderBanner from "../assets/placeholder_banner_portalpage.png";
 
 function MakingOf() {
 	// Retrieves the 'id' parameter from the URL using the useParams hook.
@@ -25,12 +25,14 @@ function MakingOf() {
 		return <p>Fairytale not found!</p>;
 	}
 
+	const bannerImg = fairyTale.imgBanner === "" ? placeholderBanner : fairyTale.imgBanner;
+
 	return (
 		<div className="wrapper">
 			<div className="MakingOf">
 				<ExplainerVideo name={fairyTale.fairytale} author={fairyTale.nameStudent} />
 
-				<img src={fairyTale.imgBanner} alt={`${fairyTale.fairytale} banner`} />
+				<img src={bannerImg} alt={`${fairyTale.fairytale} banner`} />
 
 				<div className="DescriptionDetails">
 					{/* Only render the whole container if there is a video */}
@@ -56,12 +58,11 @@ function MakingOf() {
 						<div className="visitWebsiteButton">
 							{/* Button to visit the fairytale site */}
 							{fairyTale.fairytaleLink ? (
-								<Button
-									label="Visit website"
-									onClick={() => window.open(fairyTale.fairytaleLink, "_blank")}
-								/>
+								<Button label="Visit website" onClick={() => window.open(fairyTale.fairytaleLink, "_blank")} />
 							) : (
-								<p>This student has <strong>not</strong> submitted a link to his/her fairy tale</p>
+								<p>
+									This student has <strong>not</strong> submitted a link to his/her fairy tale
+								</p>
 							)}
 						</div>
 					</div>
