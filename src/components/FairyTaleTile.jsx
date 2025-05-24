@@ -1,12 +1,15 @@
 import { useNavigate } from "react-router-dom";
+import placeholderImage from "../assets/placeholder_image_portalpage.png";
 
+// I could also use props, but destructuring is more readable and cleaner in my opinion.
 function FairyTaleTile({ id, name, author, image }) {
 	const navigate = useNavigate();
+	const img = image === "" ? placeholderImage : image;
 
 	return (
 		<div className="FairyTale">
 			<div className="FairyTalePreview">
-				<img src={image} alt={`Preview ${name}`} />
+				<img src={img} alt={`Preview ${name}`} />
 				<div className="InfoContainer">
 					<div className="FairyTaleTitle">
 						<h2>{name.toUpperCase()}</h2>
