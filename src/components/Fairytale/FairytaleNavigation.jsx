@@ -2,7 +2,7 @@ function FairytaleNavigation() {
     return (
         <nav className="fairytaleNavigation">
             <li>
-                <button onClick={() => window.history.back()}>
+                <button onClick={() => window.history.back()} className="backBtn">
                     Go Back
                 </button>
             </li>
