@@ -2,7 +2,7 @@
 
 A modern retelling of the classic Hansel and Gretel story — built as a scroll-based interactive experience using React, Framer Motion, and audio cues. Each scene unfolds visually as the user scrolls, offering animations, interactions, and timed narration.
 
-Live link: [website.be](https://website.be)
+Live link: [Once upon a time...](https://ehb-mct.github.io/cp-frontend-ArnoBaeck/)
 
 ---
 
