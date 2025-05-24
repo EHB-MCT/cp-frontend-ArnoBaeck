@@ -29,7 +29,8 @@ function Cover() {
 				>
 					<div className="text-cover">
 						<h1>Hansel and Gretel</h1>
-						<p>Click anywhere to start the fairytale</p>
+						<p>Turn on your audio and scroll through the story. Follow the instructions as you go.</p><br />
+						<p>Click anywhere to begin the fairytale.</p>
 					</div>
 				</motion.div>
 			)}
