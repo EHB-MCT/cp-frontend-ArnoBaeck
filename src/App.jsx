@@ -54,9 +54,9 @@ export default App;
 //DONE => // 4. Add a all projects button to the home page.
 //Not doing that anymore, because you automatically search when filtering your data
 //DONE => // 5. Add a delay on the search bar.
-// 6. Add a loading screen when data is being fetched. => I will do this when i have an API to fetch data from.
+//DONE 6. Add a loading screen when data is being fetched. => I will do this when i have an API to fetch data from.
 // 7. When there is no video in the data, hide the video section.
-// 8. When you click on the visit website button, load in another layout. When they click on the back arrow, they should be send back and not be redirected. (that way they can go back to the portal page they were on.)
+//DONE 8. When you click on the visit website button, load in another layout. When they click on the back arrow, they should be send back and not be redirected. (that way they can go back to the portal page they were on.)
 // 9. Project name
-// 10. Fix link of logo in nav
+//DONE 10. Fix link of logo in nav
 //DONE 11. Styling.
