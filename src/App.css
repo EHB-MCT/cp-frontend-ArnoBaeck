@@ -135,6 +135,11 @@ p {
 	font-family: "bungee", sans-serif;
 	width: auto !important;
 	border: none;
+	cursor: pointer;
+}
+
+.infoBtn {
+	cursor: pointer;
 }
 
 .allProjectsBtn {
@@ -443,12 +448,19 @@ footer p {
 	pointer-events: none;
 }
 
-
 @keyframes flash {
-	0% { opacity: 0; }
-	10% { opacity: 1; }
-	90% { opacity: 1; }
-	100% { opacity: 0; }
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 
 /* SCENE2 */
@@ -614,7 +626,7 @@ footer p {
 	cursor: pointer;
 }
 
-.text-content p{
+.text-content p {
 	text-align: center;
 	color: white;
 	max-width: 80vw;

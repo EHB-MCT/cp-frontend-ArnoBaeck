@@ -16,7 +16,7 @@ function FairyTaleTile({ id, name, author, image }) {
 						<p>{author}</p>
 					</div>
 					<div className="FairyTaleDetailButton">
-						<button onClick={() => navigate(`/making-of/${id}`)}>
+						<button onClick={() => navigate(`/making-of/${id}`)} className="infoBtn">
 							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16" fill="none">
 								<g clipPath="url(#clip0_62_103)">
 									<path
