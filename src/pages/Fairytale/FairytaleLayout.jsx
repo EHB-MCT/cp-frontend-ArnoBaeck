@@ -1,5 +1,6 @@
-import FairytaleNavigation from "../../components/Fairytale/FairytaleNavigation";
 import { Outlet } from "react-router";
+
+import FairytaleNavigation from "../../components/Fairytale/FairytaleNavigation";
 
 function FairytaleLayout() {
 	return (

@@ -2,7 +2,6 @@ import { useState, useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 
 import Trees from "./Trees";
-
 import magicalStartSound from "../../assets/start.mp3";
 
 function Cover() {

@@ -8,7 +8,7 @@ function Scene3_CellDoor({ isOpen }) {
 	useEffect(() => {
 		if (isOpen) {
 			const sound = new Audio(doorOpenSound);
-			sound.play().catch((e) => console.warn("Audio blocked", e));
+			sound.play();
 		}
 	}, [isOpen]);
 

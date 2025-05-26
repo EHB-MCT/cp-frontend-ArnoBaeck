@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 import coins from "../../assets/scene3_gold.svg";
-
 import coinCollectSound from "../../assets/scene3_coins_collect.mp3";
 import coinSound from "../../assets/scene3_coins_sound.mp3";
 

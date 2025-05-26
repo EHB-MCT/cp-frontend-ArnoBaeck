@@ -1,8 +1,9 @@
+import { useRef } from "react";
 import { motion, useTransform } from "framer-motion";
+
 import bush from "../../assets/scene1_bush.svg";
 import bushDragSound from "../../assets/scene1_bushes.mp3";
 import thunderSound from "../../assets/thunder.mp3";
-import { useRef } from "react";
 
 function Bush({ scrollY, onTriggerTransition }) {
 	const bushZoneRef = useRef(null);

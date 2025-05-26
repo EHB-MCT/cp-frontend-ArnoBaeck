@@ -14,8 +14,8 @@ function useFetchFairytales() {
 				if (!response.ok) throw new Error("Failed to fetch fairy tales");
 				const data = await response.json();
 				setFairyTales(data);
-			} catch (err) {
-				setError(err.message);
+			} catch (error) {
+				setError(error.message);
 			} finally {
 				setLoading(false);
 			}

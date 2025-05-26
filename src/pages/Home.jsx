@@ -1,6 +1,7 @@
 import useFetchFairytales from "../hooks/useFetchFairyTales";
-import FairyTaleTile from "../components/FairyTaleTile";
 import { useOutletContext, useNavigate } from "react-router-dom";
+
+import FairyTaleTile from "../components/FairyTaleTile";
 import Button from "../components/Button";
 
 function Home() {
